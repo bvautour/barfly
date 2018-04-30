@@ -1,0 +1,77 @@
+@font-face{
+  font-family: Hack;
+  src: url(./assets/font/Hack-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  scrollable: false;
+  font-family: Hack;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* font-size: 14px; */
+}
+html{
+  width: 100%;
+  height: 100vh;
+  color: #ebdbb2;
+  background: #282828;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.bar-wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.btn-group{
+  line-height: 40px;
+  display: inline;
+  padding: 0px;
+  /* background: honeydew; */
+}
+.btn{
+  text-decoration: none;
+  display: inline;
+  padding: 10px 10px;
+  height: 100%;
+  /* background: blue; */
+}
+.icon {
+  font-size: 24px;
+}
+#spaces{
+  margin: 0px 0px 0px 10px;
+  text-align: left;
+}
+#widgets{
+  margin: 0px 10px 0px 0px;
+  text-align: right;
+}
+#title {
+  text-align: center;
+  line-height: 24px;
+}
+
+#widgets .btn .active {
+  background-color: #ebdbb2;
+  color: #282828;
+}
+
+#widgets .btn:hover {
+  background-color: #ebdbb2;
+  color: #282828;
+}
+#battery{
+  /* font-size: 20px;
+  padding: 0px; */
+  /* line-height: 50px; */
+}
+
+.full {
+  color: #98971a;
+}
